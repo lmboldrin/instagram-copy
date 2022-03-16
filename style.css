@@ -1,0 +1,29 @@
+.icon-link-menu{
+    color: black;
+}
+
+#search-bar{
+    border-radius: 8px;
+    background: #efefef;
+    font-size: 16px;
+    padding: 6px 150px 6px 15px;
+    justify-content: center;
+    cursor: text;
+    font-weight: 300;
+    color: darkgray;
+    align-items: center;
+}
+
+#search-bar a{
+    color: darkgray;
+}
+
+.topbar-profile-photo{
+    width: 1.8em;
+    height: 1.8em;
+    position: relative;
+}
+
+.topbar-profile-photo img {
+    width: 100%;
+}
