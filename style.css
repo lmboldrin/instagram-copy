@@ -1,4 +1,4 @@
-.icon-link-menu{
+.icon-link{
     color: black;
 }
 
@@ -34,4 +34,63 @@
 
 .stories-username {
     font-size: small;
+}
+
+.post-profile-photo {
+    width: 2.5em;
+    height: 2.5em;
+    position: relative;
+    padding: 1px;
+}
+
+.like-profile-photo{
+    width: 1.3em;
+    height: 1.3em;
+    position: relative;
+    padding: .5px;
+}
+
+.post-username{
+    font-size: 14px;
+    font-weight:600;
+    color: black;
+}
+
+.likes {
+    font-size: 14px;
+}
+
+.likes a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.post-comments-number{
+    font-size: 14px;
+    color: darkgray;
+}
+
+.post-subtitle, .post-comment {
+    font-size: 14px;
+}
+
+.post-time {
+    font-size: 10px;
+    color: darkgray;
+}
+
+.textarea-comment {
+    resize: none;
+}
+
+.textarea-comment:focus {
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn-publish {
+    color:rgba(0,149,246,0.4);
+    font-size: 14px;
 }
