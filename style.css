@@ -12,10 +12,15 @@
     font-weight: 300;
     color: darkgray;
     align-items: center;
+    margin-left: auto;
 }
 
 #search-bar a{
     color: darkgray;
+}
+
+#menu {
+    margin-left: 4em;
 }
 
 .topbar-profile-photo{
