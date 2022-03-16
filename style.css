@@ -22,8 +22,16 @@
     width: 1.8em;
     height: 1.8em;
     position: relative;
+    padding: 1px;
 }
 
-.topbar-profile-photo img {
-    width: 100%;
+.stories-profile-photo {
+    width: 4em;
+    height: 4em;
+    position: relative;
+    padding: 2px;
+}
+
+.stories-username {
+    font-size: small;
 }
