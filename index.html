@@ -14,7 +14,7 @@
 
 <body class="bg-light">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white border-bottom">
             <div class="container justify-content-center">
                 <div class="d-flex flex-row align-items-center col-9">
                     <a class="navbar-brand" href="#">
@@ -66,11 +66,11 @@
     </header>
     <main>
         <div class="container d-flex justify-content-center mt-4">
-            <div class=" col-9">
+            <div class=" col-9 mt-5">
                 <div class="row">
                     <section class="col-8">
                         <!-- STORIES -->
-                        <div class="card">
+                        <div class="card mt-2">
                             <div class="card-body d-flex justify-content-start">
                                 <div class="d-flex flex-column justify-content-center align-items-center me-3">
                                     <a href="https://www.instagram.com/educologoexisto/" target="blank">
@@ -120,7 +120,7 @@
                                     </a>
                                     <p class="stories-username">chevroletbr</p>
                                 </div>
-                                <div class="d-flex flex-column justify-content-center align-items-center me-3">
+                                <div class="d-flex flex-column justify-content-center align-items-center me-2">
                                     <a href="https://www.instagram.com/thechurchnews/" target="blank">
                                         <div class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center border border-2 border-danger stories-profile-photo">
                                             <img class="rounded-circle w-100" src="assets/images/churchnews-foto-perfil.jpg" alt="story profile picture">
@@ -128,7 +128,7 @@
                                     </a>
                                     <p class="stories-username">thechurc...</p>
                                 </div>
-                                <div class="d-flex flex-column justify-content-center align-items-center me-3">
+                                <div class="d-flex flex-column justify-content-center align-items-center">
                                     <a href="https://www.instagram.com/fiapoficial/" target="blank">
                                         <div class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center border border-2 border-danger stories-profile-photo">
                                             <img class="rounded-circle w-100" src="assets/images/fiap-foto-perfil.jpg" alt="story profile picture">
@@ -412,8 +412,118 @@
                         </div>
                         <!-- END POST -->
                     </section>
-                    <aside class="col-4">
-                        
+                    <aside class="col-4" id="side-info">
+                        <div class="d-flex flex-row align-items-center pt-4">
+                            <a href="https://www.instagram.com/lucaasboldrin/" target="blank">
+                                <div class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center border border-2 border-danger profile-photo">
+                                    <img class="rounded-circle w-100" src="assets/images/foto-meu-perfil.jpg" alt="profile picture">
+                                </div>
+                            </a>
+                            <div>
+                                <p class="post-username fs-14 ms-3 mb-0">lucaasboldrin</p>                            
+                                <p class="ms-3 mb-0 text-secondary fs-14">Lucas Boldrin</p>
+                            </div>
+                            <a href="#" class="ms-auto me-3 text-decoration-none">
+                                <p class="mb-0 side-link fs-12">Mudar</p>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                             <p class="ms-2 mt-4 fs-14 text-secondary">Sugestões para você</p>
+                            <a href="#" class="text-decoration-none text-black fs-12 fw-bold me-3">Ver tudo</a>
+                        </div>
+                        <div class="d-flex flex-row align-items-center mb-2">
+                            <a href="https://www.instagram.com/autoline.carros/" target="blank">
+                                <div class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center sugestions-profile-photo">
+                                    <img class="rounded-circle w-100" src="assets/images/autoline-foto-perfil.jpg" alt="sugestion profile picture">
+                                </div>
+                            </a>
+                            <div>
+                                <p class="post-username fs-14 ms-3 mb-0">autoline.carros</p>                            
+                                <p class="ms-3 mb-0 text-secondary fs-12">Sugestões para você</p>
+                            </div>
+                            <a href="#" class="ms-auto me-3 text-decoration-none">
+                                <p class="mb-0 side-link fs-12">Seguir</p>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-row align-items-center mb-2">
+                            <a href="https://www.instagram.com/gusta/" target="blank">
+                                <div class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center sugestions-profile-photo">
+                                    <img class="rounded-circle w-100" src="assets/images/gusta-foto-perfil.jpg" alt="sugestion profile picture">
+                                </div>
+                            </a>
+                            <div>
+                                <p class="post-username fs-14 ms-3 mb-0">gusta</p>                            
+                                <p class="ms-3 mb-0 text-secondary fs-12">Seguido(a) por jubsmboldrin e mais</p>
+                            </div>
+                            <a href="#" class="ms-auto me-3 text-decoration-none">
+                                <p class="mb-0 side-link fs-12">Seguir</p>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-row align-items-center mb-2">
+                            <a href="https://www.instagram.com/liahonabrasil/" target="blank">
+                                <div class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center sugestions-profile-photo">
+                                    <img class="rounded-circle w-100" src="assets/images/liahonabrasil-foto-perfil.jpg" alt="sugestion profile picture">
+                                </div>
+                            </a>
+                            <div>
+                                <p class="post-username fs-14 ms-3 mb-0">liahonabrasil</p>                            
+                                <p class="ms-3 mb-0 text-secondary fs-12">Seguido(a) por jeanmend_jdm</p>
+                            </div>
+                            <a href="#" class="ms-auto me-3 text-decoration-none">
+                                <p class="mb-0 side-link fs-12">Seguir</p>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-row align-items-center mb-2">
+                            <a href="https://www.instagram.com/hondamotosbr/" target="blank">
+                                <div class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center sugestions-profile-photo">
+                                    <img class="rounded-circle w-100" src="assets/images/honda-foto-perfil.jpg" alt="sugestion profile picture">
+                                </div>
+                            </a>
+                            <div>
+                                <p class="post-username fs-14 ms-3 mb-0">hondamotosbr</p>                            
+                                <p class="ms-3 mb-0 text-secondary fs-12">Sugestões para você</p>
+                            </div>
+                            <a href="#" class="ms-auto me-3 text-decoration-none">
+                                <p class="mb-0 side-link fs-12">Seguir</p>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column ms-2 mt-3 ">
+                            <dl class="d-flex flex-row justify-content-start mb-0"> 
+                                <dt>
+                                    <a href="#" class="text-decoration-none c-lightgrey fw-normal fs-12 me-1">Sobre</a>
+                                </dt>
+                                <dt>
+                                    <a href="#" class="text-decoration-none c-lightgrey fw-normal fs-12 me-1">Ajuda</a>
+                                </dt>
+                                <dt>
+                                    <a href="#" class="text-decoration-none c-lightgrey fw-normal fs-12 me-1">Imprensa</a>
+                                </dt>
+                                <dt>
+                                    <a href="#" class="text-decoration-none c-lightgrey fw-normal fs-12 me-1">API</a>
+                                </dt>
+                                <dt>
+                                    <a href="#" class="text-decoration-none c-lightgrey fw-normal fs-12 me-1">Carreiras</a>
+                                </dt>
+                                <dt>
+                                    <a href="#" class="text-decoration-none c-lightgrey fw-normal fs-12 me-1">Privacidade</a>
+                                </dt>
+                            </dl>
+                            <dl class="d-flex flex-row justify-content-start mt-0 mb-0">
+                                <dt>
+                                    <a href="#" class="text-decoration-none fw-normal fs-12 me-1 c-lightgrey">Termos</a>
+                                </dt>
+                                <dt>
+                                    <a href="#" class="text-decoration-none c-lightgrey fw-normal fs-12 me-1">Localizações</a>
+                                </dt>
+                                <dt>
+                                    <a href="#" class="text-decoration-none c-lightgrey fw-normal fs-12 me-1">Principais contas</a>
+                                </dt>
+                                <dt>
+                                    <a href="#" class="text-decoration-none c-lightgrey fw-normal fs-12 me-1">Hashtags</a>
+                                </dt>
+                            </dl>
+                            <a href="#" class="text-decoration-none c-lightgrey fs-12 me-1">Idioma</a>
+                        </div>
                     </aside>
                 </div>
             </div>
