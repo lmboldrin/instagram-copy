@@ -37,6 +37,13 @@
     padding: 2px;
 }
 
+.profile-photo {
+    width: 3.6em;
+    height: 3.6em;
+    position: relative;
+    padding: 2px;
+}
+
 .stories-username {
     font-size: small;
 }
@@ -56,28 +63,18 @@
 }
 
 .post-username{
-    font-size: 14px;
     font-weight:600;
     color: black;
 }
 
 .likes {
-    font-size: 14px;
-}
-
-.likes a {
     color: black;
     text-decoration: none;
     font-weight: 600;
 }
 
 .post-comments-number{
-    font-size: 14px;
     color: darkgray;
-}
-
-.post-subtitle, .post-comment {
-    font-size: 14px;
 }
 
 .post-time {
@@ -97,5 +94,9 @@
 
 .btn-publish {
     color:rgba(0,149,246,0.4);
+    font-size: 14px;
+}
+
+.fs-14 {
     font-size: 14px;
 }
